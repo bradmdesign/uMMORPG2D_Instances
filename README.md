@@ -6,7 +6,12 @@ NOTE: If you use navmeshes/a tilemap like I do, you'll need to use <a href="http
 
 For a tutorial, please see below.
 
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/8ujim4" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><media src="https://streamable.com/e/8ujim4" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+
+ <video controls>
+  <source src="https://streamable.com/e/8ujim4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
 
 Steps:
 
