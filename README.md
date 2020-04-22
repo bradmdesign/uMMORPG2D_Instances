@@ -1,5 +1,5 @@
 # uMMORPG2D_Instances
-This is an asset that allows players to create instanced zones in their 2d MMORPG. This can be used in just about any networked game in the 2d world, as well as many in the 3d world with some modification.
+This is an asset that allows players to create instanced zones in their 2d MMORPG, all utilizing only one scene. This can be used in just about any networked game in the 2d world, as well as many in the 3d world with some modification.
 
 NOTE: If you use navmeshes/a tilemap like I do, you'll need to use <a href="https://noobtuts.com/unity/navigation2d">vis2k's nav2d from noobtuts.com</a> or the Unity Asset store.
 
@@ -27,3 +27,7 @@ Let's precook a few Nav meshes.
 2. Press "Play", and then click "Prebake Nav Mesh".
 3. Once they have been spawned, go to your Navigation2D window and click "Bake"
 4. <em>Optional</em> If you have several instances (tagged with Instance), you can spawn all of them at once by dragging the InstanceSpawner into the scene and clicking "Create Instances". This will go through all of your prefabs tagged "Instance" and start the Prebake Nav Mesh button on them. 
+
+
+<strong>NOTE:</strong> This isn't a perfect solution for 2d navmesh users. The reason why we pre-bake nav meshes is so that when one spawns in that area, players can walk. If anyone wants to expand on this or figure out a way to pre-bake 2d navmeshes, please contact me/branch!
+</strong>NOTE 2:</strong> Instancing like this reserves this X axis - so be sure to build your additional rooms on the Y axis.
