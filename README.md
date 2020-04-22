@@ -14,15 +14,14 @@ Steps:
 3. Add the tag "Instance" and tag your newly created Prefab with it.
 4. Add the "Zone Index" script to your instance.
 4. Create an empty object in your scene to be a parent of your instance. 
-5. Add the "Instance Zone" script to it and nothing else. In our example, our parent object is "Intro Instance"
-<img src="https://i.imgur.com/rEs7ms1.png">
+5. Add the "Instance Zone" script to it and nothing else. In our example, our parent object is "Intro Instance" <img src="https://i.imgur.com/rEs7ms1.png">
 6. Set the Distance Between Zones so that you can't see it from game or from minimap. I chose 100. This adds the instance at the same location, but +100 on the X axis.
-5. Drag the prefab of your instance underneath your newly created parent object.
-6. Add the "Zone Index" script to your instance.
+7. Drag the prefab of your instance underneath your newly created parent object.
+8. Add the "Zone Index" script to your instance.
 
 Now, if you were to go in game and press the "go" boolean, it would show you how it looks when a new instance is created.
 
-Let's precook a few nav meshes.
+Let's precook a few Nav meshes.
 
 1. On your parent object, you'll see the field "Instances to Create". Set that number to 20.
 2. Press "Play", and then click "Prebake Nav Mesh".
