@@ -4,14 +4,8 @@ This is an asset that allows players to create instanced zones in their 2d MMORP
 NOTE: If you use navmeshes/a tilemap like I do, you'll need to use <a href="https://noobtuts.com/unity/navigation2d">vis2k's nav2d from noobtuts.com</a> or the Unity Asset store.
 
 
-For a tutorial, please see below.
+For a tutorial, please <a href="https://streamable.com/e/8ujim4">click here</a>.
 
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><media src="https://streamable.com/e/8ujim4" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
-
- <video controls>
-  <source src="https://streamable.com/e/8ujim4" type="video/mp4">
-Your browser does not support the video tag.
-</video> 
 
 Steps:
 
@@ -33,4 +27,4 @@ Let's precook a few nav meshes.
 1. On your parent object, you'll see the field "Instances to Create". Set that number to 20.
 2. Press "Play", and then click "Prebake Nav Mesh".
 3. Once they have been spawned, go to your Navigation2D window and click "Bake"
-4. ~Optional~ If you have several instances (tagged with Instance), you can spawn all of them at once by dragging the InstanceSpawner into the scene and clicking "Create Instances". This will go through all of your prefabs tagged "Instance" and start the Prebake Nav Mesh button on them. 
+4. <em>Optional</em> If you have several instances (tagged with Instance), you can spawn all of them at once by dragging the InstanceSpawner into the scene and clicking "Create Instances". This will go through all of your prefabs tagged "Instance" and start the Prebake Nav Mesh button on them. 
