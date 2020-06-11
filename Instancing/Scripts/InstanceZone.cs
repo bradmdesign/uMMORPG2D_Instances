@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class InstanceZone : MonoBehaviour
 {
-    [SerializeField] private GameObject zone;
+    [SerializeField] private GameObject zone = default;
 
-    [SerializeField] private List<GameObject> activeInstances;
+    [SerializeField] private List<GameObject> activeInstances = default;
 
-    [SerializeField] private Vector3 instanceLocation;
+    [SerializeField] private Vector3 instanceLocation = default;
 
-    [SerializeField] private int distanceBetweenZones;
+    [SerializeField] private int distanceBetweenZones = default;
     
     [SerializeField] private GameObject newZone;
 
@@ -20,7 +20,7 @@ public class InstanceZone : MonoBehaviour
 
     [SerializeField] private bool removeAtIndex;
 
-    [SerializeField] private int removalIndex;
+    [SerializeField] private int removalIndex = default;
 
     [SerializeField] private bool prebakeNavMesh;
 
